@@ -16,7 +16,7 @@ function App() {
         <nav>
           <Link to="/">Home</Link>
           <Link to="/private">Página Privada</Link>
-          {auth.user && <a href='javascript;'>Sair</a>}
+          {auth.user && <a href='javascript;'>Logout</a>}
         </nav>
       </header>
       <hr />
